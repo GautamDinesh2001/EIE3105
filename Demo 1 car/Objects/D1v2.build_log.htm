@@ -1,0 +1,1971 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Gautam Dinesh, The Hong Kong Polytechnic University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\gauta\OneDrive\Desktop\20040968D EIE3105\D1v2\car\D1v2.uvprojx
+Project File Date:  02/25/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(30): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\stm32f10x_adc.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(51): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\stm32f10x_dma.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(63): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\stm32f10x_gpio.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(75): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\stm32f10x_rcc.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(84): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\stm32f10x_spi.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(87): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\stm32f10x_tim.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(90): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\stm32f10x_usart.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(93): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\stm32f10x_wwdg.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(1): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(96): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc\misc.h(31): warning: In file included from...
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+os.cpp(2): warning: In file included from...
+./os.h(20): warning: no newline at end of file [-Wnewline-eof]
+bool uart3_print(const char*);
+                              ^
+os.cpp(21): warning: implicit conversion loses integer precision: 'unsigned int' to 'char' [-Wimplicit-int-conversion]
+        setLEDs(t+'0');
+        ~~~~~~~ ~^~~~
+os.cpp(33): warning: use of old-style cast [-Wold-style-cast]
+  ADC1->CR2 |= ADC_CR2_ADON; //ADC start convert
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1423): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1330): note: expanded from macro 'ADC1_BASE'
+#define ADC1_BASE             (APB2PERIPH_BASE + 0x2400)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(33): warning: use of old-style cast [-Wold-style-cast]
+  ADC1->CR2 |= ADC_CR2_ADON; //ADC start convert
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1423): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(33): warning: use of old-style cast [-Wold-style-cast]
+  ADC1->CR2 |= ADC_CR2_ADON; //ADC start convert
+               ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(3750): note: expanded from macro 'ADC_CR2_ADON'
+#define  ADC_CR2_ADON                        ((uint32_t)0x00000001)        /*!< A/D Converter ON / OFF */
+                                              ^         ~~~~~~~~~~
+os.cpp(36): warning: use of old-style cast [-Wold-style-cast]
+  int b = GPIOA->IDR & 0x1000;
+          ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1323): note: expanded from macro 'GPIOA_BASE'
+#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(36): warning: use of old-style cast [-Wold-style-cast]
+  int b = GPIOA->IDR & 0x1000;
+          ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(38): warning: implicit conversion loses integer precision: 'int' to 'char' [-Wimplicit-int-conversion]
+  on_buttons((button = b));
+  ~~~~~~~~~~  ~~~~~~~^~~
+os.cpp(49): warning: use of old-style cast [-Wold-style-cast]
+  RCC->APB1ENR = RCC_APB1ENR_USART2EN | RCC_APB1ENR_USART3EN |
+  ^~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1451): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                                             ^~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1360): note: expanded from macro 'RCC_BASE'
+#define RCC_BASE              (AHBPERIPH_BASE + 0x1000)
+                               ^~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1292): note: expanded from macro 'AHBPERIPH_BASE'
+#define AHBPERIPH_BASE        (PERIPH_BASE + 0x20000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(49): warning: use of old-style cast [-Wold-style-cast]
+  RCC->APB1ENR = RCC_APB1ENR_USART2EN | RCC_APB1ENR_USART3EN |
+  ^~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1451): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                             ^               ~~~~~~~~
+os.cpp(49): warning: use of old-style cast [-Wold-style-cast]
+  RCC->APB1ENR = RCC_APB1ENR_USART2EN | RCC_APB1ENR_USART3EN |
+                 ^~~~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2100): note: expanded from macro 'RCC_APB1ENR_USART2EN'
+#define  RCC_APB1ENR_USART2EN                ((uint32_t)0x00020000)        /*!< USART 2 clock enable */
+                                              ^         ~~~~~~~~~~
+os.cpp(49): warning: use of old-style cast [-Wold-style-cast]
+  RCC->APB1ENR = RCC_APB1ENR_USART2EN | RCC_APB1ENR_USART3EN |
+                                        ^~~~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2113): note: expanded from macro 'RCC_APB1ENR_USART3EN'
+ #define  RCC_APB1ENR_USART3EN               ((uint32_t)0x00040000)        /*!< USART 3 clock enable */
+                                              ^         ~~~~~~~~~~
+os.cpp(50): warning: use of old-style cast [-Wold-style-cast]
+                 RCC_APB1ENR_TIM4EN | RCC_APB1ENR_TIM2EN;
+                 ^~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2111): note: expanded from macro 'RCC_APB1ENR_TIM4EN'
+ #define  RCC_APB1ENR_TIM4EN                 ((uint32_t)0x00000004)        /*!< Timer 4 clock enable */
+                                              ^         ~~~~~~~~~~
+os.cpp(50): warning: use of old-style cast [-Wold-style-cast]
+                 RCC_APB1ENR_TIM4EN | RCC_APB1ENR_TIM2EN;
+                                      ^~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2097): note: expanded from macro 'RCC_APB1ENR_TIM2EN'
+#define  RCC_APB1ENR_TIM2EN                  ((uint32_t)0x00000001)        /*!< Timer 2 clock enabled*/
+                                              ^         ~~~~~~~~~~
+os.cpp(51): warning: use of old-style cast [-Wold-style-cast]
+  RCC->APB2ENR = RCC_APB2ENR_SPI1EN | RCC_APB2ENR_TIM1EN |
+  ^~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1451): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                                             ^~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1360): note: expanded from macro 'RCC_BASE'
+#define RCC_BASE              (AHBPERIPH_BASE + 0x1000)
+                               ^~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1292): note: expanded from macro 'AHBPERIPH_BASE'
+#define AHBPERIPH_BASE        (PERIPH_BASE + 0x20000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(51): warning: use of old-style cast [-Wold-style-cast]
+  RCC->APB2ENR = RCC_APB2ENR_SPI1EN | RCC_APB2ENR_TIM1EN |
+  ^~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1451): note: expanded from macro 'RCC'
+#define RCC                 ((RCC_TypeDef *) RCC_BASE)
+                             ^               ~~~~~~~~
+os.cpp(51): warning: use of old-style cast [-Wold-style-cast]
+  RCC->APB2ENR = RCC_APB2ENR_SPI1EN | RCC_APB2ENR_TIM1EN |
+                 ^~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2065): note: expanded from macro 'RCC_APB2ENR_SPI1EN'
+#define  RCC_APB2ENR_SPI1EN                  ((uint32_t)0x00001000)         /*!< SPI 1 clock enable */
+                                              ^         ~~~~~~~~~~
+os.cpp(51): warning: use of old-style cast [-Wold-style-cast]
+  RCC->APB2ENR = RCC_APB2ENR_SPI1EN | RCC_APB2ENR_TIM1EN |
+                                      ^~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2064): note: expanded from macro 'RCC_APB2ENR_TIM1EN'
+#define  RCC_APB2ENR_TIM1EN                  ((uint32_t)0x00000800)         /*!< TIM1 Timer clock enable */
+                                              ^         ~~~~~~~~~~
+os.cpp(52): warning: use of old-style cast [-Wold-style-cast]
+                 RCC_APB2ENR_IOPBEN | RCC_APB2ENR_IOPAEN |
+                 ^~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2055): note: expanded from macro 'RCC_APB2ENR_IOPBEN'
+#define  RCC_APB2ENR_IOPBEN                  ((uint32_t)0x00000008)         /*!< I/O port B clock enable */
+                                              ^         ~~~~~~~~~~
+os.cpp(52): warning: use of old-style cast [-Wold-style-cast]
+                 RCC_APB2ENR_IOPBEN | RCC_APB2ENR_IOPAEN |
+                                      ^~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2054): note: expanded from macro 'RCC_APB2ENR_IOPAEN'
+#define  RCC_APB2ENR_IOPAEN                  ((uint32_t)0x00000004)         /*!< I/O port A clock enable */
+                                              ^         ~~~~~~~~~~
+os.cpp(53): warning: use of old-style cast [-Wold-style-cast]
+                 RCC_APB2ENR_ADC1EN;
+                 ^~~~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(2058): note: expanded from macro 'RCC_APB2ENR_ADC1EN'
+#define  RCC_APB2ENR_ADC1EN                  ((uint32_t)0x00000200)         /*!< ADC 1 interface clock enable */
+                                              ^         ~~~~~~~~~~
+os.cpp(54): warning: use of old-style cast [-Wold-style-cast]
+  GPIOA->CRL = 0xa4a24a42;
+  ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1323): note: expanded from macro 'GPIOA_BASE'
+#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(54): warning: use of old-style cast [-Wold-style-cast]
+  GPIOA->CRL = 0xa4a24a42;
+  ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(55): warning: use of old-style cast [-Wold-style-cast]
+  GPIOA->CRH = 0x4444a4aa;
+  ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1323): note: expanded from macro 'GPIOA_BASE'
+#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(55): warning: use of old-style cast [-Wold-style-cast]
+  GPIOA->CRH = 0x4444a4aa;
+  ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(56): warning: use of old-style cast [-Wold-style-cast]
+  GPIOB->CRL = 0x42444440;
+  ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1417): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1324): note: expanded from macro 'GPIOB_BASE'
+#define GPIOB_BASE            (APB2PERIPH_BASE + 0x0C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(56): warning: use of old-style cast [-Wold-style-cast]
+  GPIOB->CRL = 0x42444440;
+  ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1417): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(57): warning: use of old-style cast [-Wold-style-cast]
+  GPIOB->CRH = 0xaaa24a44;
+  ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1417): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1324): note: expanded from macro 'GPIOB_BASE'
+#define GPIOB_BASE            (APB2PERIPH_BASE + 0x0C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(57): warning: use of old-style cast [-Wold-style-cast]
+  GPIOB->CRH = 0xaaa24a44;
+  ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1417): note: expanded from macro 'GPIOB'
+#define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(58): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->DIER = TIM_DIER_CC4IE | TIM_DIER_UIE;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(58): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->DIER = TIM_DIER_CC4IE | TIM_DIER_UIE;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(58): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->DIER = TIM_DIER_CC4IE | TIM_DIER_UIE;
+               ^~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4270): note: expanded from macro 'TIM_DIER_CC4IE'
+#define  TIM_DIER_CC4IE                      ((uint16_t)0x0010)            /*!< Capture/Compare 4 interrupt enable */
+                                              ^         ~~~~~~
+os.cpp(58): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->DIER = TIM_DIER_CC4IE | TIM_DIER_UIE;
+                                ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4266): note: expanded from macro 'TIM_DIER_UIE'
+#define  TIM_DIER_UIE                        ((uint16_t)0x0001)            /*!< Update interrupt enable */
+                                              ^         ~~~~~~
+os.cpp(59): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->PSC = 3;                        //18 MHz = 72/(3+1)
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(59): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->PSC = 3;                        //18 MHz = 72/(3+1)
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(60): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->ARR = 44999;                    //2.5 ms
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(60): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->ARR = 44999;                    //2.5 ms
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(61): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCMR1 = 0x6868;                 //ch1 and ch2: PWM preload
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(61): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCMR1 = 0x6868;                 //ch1 and ch2: PWM preload
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(62): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCMR2 = 0x6803;                 //ch4: PWM; ch3: idle
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(62): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCMR2 = 0x6803;                 //ch4: PWM; ch3: idle
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(63): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->BDTR = TIM_BDTR_MOE;            //master output enable
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(63): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->BDTR = TIM_BDTR_MOE;            //master output enable
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(63): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->BDTR = TIM_BDTR_MOE;            //master output enable
+               ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4469): note: expanded from macro 'TIM_BDTR_MOE'
+#define  TIM_BDTR_MOE                        ((uint16_t)0x8000)            /*!< Main Output enable */
+                                              ^         ~~~~~~
+os.cpp(64): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER = TIM_CCER_CC3P;           //falling edge
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(64): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER = TIM_CCER_CC3P;           //falling edge
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(64): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER = TIM_CCER_CC3P;           //falling edge
+               ^~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4418): note: expanded from macro 'TIM_CCER_CC3P'
+#define  TIM_CCER_CC3P                       ((uint16_t)0x0200)            /*!< Capture/Compare 3 output Polarity */
+                                              ^         ~~~~~~
+os.cpp(65): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCR4 = 5000;          //servo range: 10000 ~ 44000
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(65): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCR4 = 5000;          //servo range: 10000 ~ 44000
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(66): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR2 = SPI_CR2_RXNEIE;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(66): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR2 = SPI_CR2_RXNEIE;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(66): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR2 = SPI_CR2_RXNEIE;
+              ^~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7537): note: expanded from macro 'SPI_CR2_RXNEIE'
+#define  SPI_CR2_RXNEIE                      ((uint8_t)0x40)               /*!< RX buffer Not Empty Interrupt Enable */
+                                              ^        ~~~~
+os.cpp(67): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR1 = SPI_CR1_CPOL | SPI_CR1_MSTR | SPI_CR1_CPHA |
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(67): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR1 = SPI_CR1_CPOL | SPI_CR1_MSTR | SPI_CR1_CPHA |
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(67): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR1 = SPI_CR1_CPOL | SPI_CR1_MSTR | SPI_CR1_CPHA |
+              ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7513): note: expanded from macro 'SPI_CR1_CPOL'
+#define  SPI_CR1_CPOL                        ((uint16_t)0x0002)            /*!< Clock Polarity */
+                                              ^         ~~~~~~
+os.cpp(67): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR1 = SPI_CR1_CPOL | SPI_CR1_MSTR | SPI_CR1_CPHA |
+                             ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7514): note: expanded from macro 'SPI_CR1_MSTR'
+#define  SPI_CR1_MSTR                        ((uint16_t)0x0004)            /*!< Master Selection */
+                                              ^         ~~~~~~
+os.cpp(67): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR1 = SPI_CR1_CPOL | SPI_CR1_MSTR | SPI_CR1_CPHA |
+                                            ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7512): note: expanded from macro 'SPI_CR1_CPHA'
+#define  SPI_CR1_CPHA                        ((uint16_t)0x0001)            /*!< Clock Phase */
+                                              ^         ~~~~~~
+os.cpp(68): warning: use of old-style cast [-Wold-style-cast]
+              SPI_CR1_BR | SPI_CR1_SSM | SPI_CR1_SSI |
+              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7516): note: expanded from macro 'SPI_CR1_BR'
+#define  SPI_CR1_BR                          ((uint16_t)0x0038)            /*!< BR[2:0] bits (Baud Rate Control) */
+                                              ^         ~~~~~~
+os.cpp(68): warning: use of old-style cast [-Wold-style-cast]
+              SPI_CR1_BR | SPI_CR1_SSM | SPI_CR1_SSI |
+                           ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7524): note: expanded from macro 'SPI_CR1_SSM'
+#define  SPI_CR1_SSM                         ((uint16_t)0x0200)            /*!< Software slave management */
+                                              ^         ~~~~~~
+os.cpp(68): warning: use of old-style cast [-Wold-style-cast]
+              SPI_CR1_BR | SPI_CR1_SSM | SPI_CR1_SSI |
+                                         ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7523): note: expanded from macro 'SPI_CR1_SSI'
+#define  SPI_CR1_SSI                         ((uint16_t)0x0100)            /*!< Internal slave select */
+                                              ^         ~~~~~~
+os.cpp(69): warning: use of old-style cast [-Wold-style-cast]
+              SPI_CR1_LSBFIRST;
+              ^~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7522): note: expanded from macro 'SPI_CR1_LSBFIRST'
+#define  SPI_CR1_LSBFIRST                    ((uint16_t)0x0080)            /*!< Frame Format */
+                                              ^         ~~~~~~
+os.cpp(70): warning: use of old-style cast [-Wold-style-cast]
+  USART2->BRR = USART3->BRR = 312;      // 36000000/115200
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1402): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1308): note: expanded from macro 'USART2_BASE'
+#define USART2_BASE           (APB1PERIPH_BASE + 0x4400)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(70): warning: use of old-style cast [-Wold-style-cast]
+  USART2->BRR = USART3->BRR = 312;      // 36000000/115200
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1402): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                             ^                 ~~~~~~~~~~~
+os.cpp(70): warning: use of old-style cast [-Wold-style-cast]
+  USART2->BRR = USART3->BRR = 312;      // 36000000/115200
+                ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1403): note: expanded from macro 'USART3'
+#define USART3              ((USART_TypeDef *) USART3_BASE)
+                                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1309): note: expanded from macro 'USART3_BASE'
+#define USART3_BASE           (APB1PERIPH_BASE + 0x4800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(70): warning: use of old-style cast [-Wold-style-cast]
+  USART2->BRR = USART3->BRR = 312;      // 36000000/115200
+                ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1403): note: expanded from macro 'USART3'
+#define USART3              ((USART_TypeDef *) USART3_BASE)
+                             ^                 ~~~~~~~~~~~
+os.cpp(71): warning: use of old-style cast [-Wold-style-cast]
+  USART2->CR1 = USART_CR1_TE | USART_CR1_RE | USART_CR1_RXNEIE;
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1402): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1308): note: expanded from macro 'USART2_BASE'
+#define USART2_BASE           (APB1PERIPH_BASE + 0x4400)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(71): warning: use of old-style cast [-Wold-style-cast]
+  USART2->CR1 = USART_CR1_TE | USART_CR1_RE | USART_CR1_RXNEIE;
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1402): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                             ^                 ~~~~~~~~~~~
+os.cpp(71): warning: use of old-style cast [-Wold-style-cast]
+  USART2->CR1 = USART_CR1_TE | USART_CR1_RE | USART_CR1_RXNEIE;
+                ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7713): note: expanded from macro 'USART_CR1_TE'
+#define  USART_CR1_TE                        ((uint16_t)0x0008)            /*!< Transmitter Enable */
+                                              ^         ~~~~~~
+os.cpp(71): warning: use of old-style cast [-Wold-style-cast]
+  USART2->CR1 = USART_CR1_TE | USART_CR1_RE | USART_CR1_RXNEIE;
+                               ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7712): note: expanded from macro 'USART_CR1_RE'
+#define  USART_CR1_RE                        ((uint16_t)0x0004)            /*!< Receiver Enable */
+                                              ^         ~~~~~~
+os.cpp(71): warning: use of old-style cast [-Wold-style-cast]
+  USART2->CR1 = USART_CR1_TE | USART_CR1_RE | USART_CR1_RXNEIE;
+                                              ^~~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7715): note: expanded from macro 'USART_CR1_RXNEIE'
+#define  USART_CR1_RXNEIE                    ((uint16_t)0x0020)            /*!< RXNE Interrupt Enable */
+                                              ^         ~~~~~~
+os.cpp(72): warning: use of old-style cast [-Wold-style-cast]
+  USART3->CR1 = USART_CR1_TE | USART_CR1_RE;
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1403): note: expanded from macro 'USART3'
+#define USART3              ((USART_TypeDef *) USART3_BASE)
+                                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1309): note: expanded from macro 'USART3_BASE'
+#define USART3_BASE           (APB1PERIPH_BASE + 0x4800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(72): warning: use of old-style cast [-Wold-style-cast]
+  USART3->CR1 = USART_CR1_TE | USART_CR1_RE;
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1403): note: expanded from macro 'USART3'
+#define USART3              ((USART_TypeDef *) USART3_BASE)
+                             ^                 ~~~~~~~~~~~
+os.cpp(72): warning: use of old-style cast [-Wold-style-cast]
+  USART3->CR1 = USART_CR1_TE | USART_CR1_RE;
+                ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7713): note: expanded from macro 'USART_CR1_TE'
+#define  USART_CR1_TE                        ((uint16_t)0x0008)            /*!< Transmitter Enable */
+                                              ^         ~~~~~~
+os.cpp(72): warning: use of old-style cast [-Wold-style-cast]
+  USART3->CR1 = USART_CR1_TE | USART_CR1_RE;
+                               ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7712): note: expanded from macro 'USART_CR1_RE'
+#define  USART_CR1_RE                        ((uint16_t)0x0004)            /*!< Receiver Enable */
+                                              ^         ~~~~~~
+os.cpp(73): warning: use of old-style cast [-Wold-style-cast]
+  ADC1->SMPR2 = 0x07000000;             //SMP8=111 (239.5 cycles)
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1423): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1330): note: expanded from macro 'ADC1_BASE'
+#define ADC1_BASE             (APB2PERIPH_BASE + 0x2400)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(73): warning: use of old-style cast [-Wold-style-cast]
+  ADC1->SMPR2 = 0x07000000;             //SMP8=111 (239.5 cycles)
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1423): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(74): warning: use of old-style cast [-Wold-style-cast]
+  ADC1->SQR3 = 8;                       //ch8
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1423): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1330): note: expanded from macro 'ADC1_BASE'
+#define ADC1_BASE             (APB2PERIPH_BASE + 0x2400)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(74): warning: use of old-style cast [-Wold-style-cast]
+  ADC1->SQR3 = 8;                       //ch8
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1423): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(75): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->SMCR = TIM4->SMCR = 0x67;       //TI2FP2
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1294): note: expanded from macro 'TIM2_BASE'
+#define TIM2_BASE             (APB1PERIPH_BASE + 0x0000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(75): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->SMCR = TIM4->SMCR = 0x67;       //TI2FP2
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(75): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->SMCR = TIM4->SMCR = 0x67;       //TI2FP2
+               ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1390): note: expanded from macro 'TIM4'
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1296): note: expanded from macro 'TIM4_BASE'
+#define TIM4_BASE             (APB1PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(75): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->SMCR = TIM4->SMCR = 0x67;       //TI2FP2
+               ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1390): note: expanded from macro 'TIM4'
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(76): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CCMR1 = TIM2->CCMR1 = 0x100;    //CC2 as input, IC2 mapped on TI2
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1294): note: expanded from macro 'TIM2_BASE'
+#define TIM2_BASE             (APB1PERIPH_BASE + 0x0000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(76): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CCMR1 = TIM2->CCMR1 = 0x100;    //CC2 as input, IC2 mapped on TI2
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(76): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CCMR1 = TIM2->CCMR1 = 0x100;    //CC2 as input, IC2 mapped on TI2
+                ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1294): note: expanded from macro 'TIM2_BASE'
+#define TIM2_BASE             (APB1PERIPH_BASE + 0x0000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(76): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CCMR1 = TIM2->CCMR1 = 0x100;    //CC2 as input, IC2 mapped on TI2
+                ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(82): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR1 |= SPI_CR1_SPE;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(82): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR1 |= SPI_CR1_SPE;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(82): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR1 |= SPI_CR1_SPE;
+               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7521): note: expanded from macro 'SPI_CR1_SPE'
+#define  SPI_CR1_SPE                         ((uint16_t)0x0040)            /*!< SPI Enable */
+                                              ^         ~~~~~~
+os.cpp(83): warning: use of old-style cast [-Wold-style-cast]
+  USART2->CR1 |= USART_CR1_UE;
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1402): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1308): note: expanded from macro 'USART2_BASE'
+#define USART2_BASE           (APB1PERIPH_BASE + 0x4400)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(83): warning: use of old-style cast [-Wold-style-cast]
+  USART2->CR1 |= USART_CR1_UE;
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1402): note: expanded from macro 'USART2'
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+                             ^                 ~~~~~~~~~~~
+os.cpp(83): warning: use of old-style cast [-Wold-style-cast]
+  USART2->CR1 |= USART_CR1_UE;
+                 ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7723): note: expanded from macro 'USART_CR1_UE'
+#define  USART_CR1_UE                        ((uint16_t)0x2000)            /*!< USART Enable */
+                                              ^         ~~~~~~
+os.cpp(84): warning: use of old-style cast [-Wold-style-cast]
+  USART3->CR1 |= USART_CR1_UE;
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1403): note: expanded from macro 'USART3'
+#define USART3              ((USART_TypeDef *) USART3_BASE)
+                                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1309): note: expanded from macro 'USART3_BASE'
+#define USART3_BASE           (APB1PERIPH_BASE + 0x4800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(84): warning: use of old-style cast [-Wold-style-cast]
+  USART3->CR1 |= USART_CR1_UE;
+  ^~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1403): note: expanded from macro 'USART3'
+#define USART3              ((USART_TypeDef *) USART3_BASE)
+                             ^                 ~~~~~~~~~~~
+os.cpp(84): warning: use of old-style cast [-Wold-style-cast]
+  USART3->CR1 |= USART_CR1_UE;
+                 ^~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7723): note: expanded from macro 'USART_CR1_UE'
+#define  USART_CR1_UE                        ((uint16_t)0x2000)            /*!< USART Enable */
+                                              ^         ~~~~~~
+os.cpp(85): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CR1 = TIM4->CR1 = TIM_CR1_CEN;  //turn on timers
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1294): note: expanded from macro 'TIM2_BASE'
+#define TIM2_BASE             (APB1PERIPH_BASE + 0x0000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(85): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CR1 = TIM4->CR1 = TIM_CR1_CEN;  //turn on timers
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(85): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CR1 = TIM4->CR1 = TIM_CR1_CEN;  //turn on timers
+              ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1390): note: expanded from macro 'TIM4'
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1296): note: expanded from macro 'TIM4_BASE'
+#define TIM4_BASE             (APB1PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(85): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CR1 = TIM4->CR1 = TIM_CR1_CEN;  //turn on timers
+              ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1390): note: expanded from macro 'TIM4'
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(85): warning: use of old-style cast [-Wold-style-cast]
+  TIM2->CR1 = TIM4->CR1 = TIM_CR1_CEN;  //turn on timers
+                          ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4204): note: expanded from macro 'TIM_CR1_CEN'
+#define  TIM_CR1_CEN                         ((uint16_t)0x0001)            /*!< Counter enable */
+                                              ^         ~~~~~~
+os.cpp(86): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CR1 = TIM_CR1_CEN;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(86): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CR1 = TIM_CR1_CEN;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(86): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CR1 = TIM_CR1_CEN;
+              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4204): note: expanded from macro 'TIM_CR1_CEN'
+#define  TIM_CR1_CEN                         ((uint16_t)0x0001)            /*!< Counter enable */
+                                              ^         ~~~~~~
+os.cpp(94): warning: use of old-style cast [-Wold-style-cast]
+unsigned getCount(void) { return TIM2->CNT + TIM4->CNT; }
+                                 ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1294): note: expanded from macro 'TIM2_BASE'
+#define TIM2_BASE             (APB1PERIPH_BASE + 0x0000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(94): warning: use of old-style cast [-Wold-style-cast]
+unsigned getCount(void) { return TIM2->CNT + TIM4->CNT; }
+                                 ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(94): warning: use of old-style cast [-Wold-style-cast]
+unsigned getCount(void) { return TIM2->CNT + TIM4->CNT; }
+                                             ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1390): note: expanded from macro 'TIM4'
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1296): note: expanded from macro 'TIM4_BASE'
+#define TIM4_BASE             (APB1PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(94): warning: use of old-style cast [-Wold-style-cast]
+unsigned getCount(void) { return TIM2->CNT + TIM4->CNT; }
+                                             ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1390): note: expanded from macro 'TIM4'
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(113): warning: use of old-style cast [-Wold-style-cast]
+  unsigned i = ADC1->DR;
+               ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1423): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1330): note: expanded from macro 'ADC1_BASE'
+#define ADC1_BASE             (APB2PERIPH_BASE + 0x2400)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(113): warning: use of old-style cast [-Wold-style-cast]
+  unsigned i = ADC1->DR;
+               ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1423): note: expanded from macro 'ADC1'
+#define ADC1                ((ADC_TypeDef *) ADC1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(118): warning: use of old-style cast [-Wold-style-cast]
+  if (GPIOA->ODR & 1) GPIOA->BRR = 1;
+      ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1323): note: expanded from macro 'GPIOA_BASE'
+#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(118): warning: use of old-style cast [-Wold-style-cast]
+  if (GPIOA->ODR & 1) GPIOA->BRR = 1;
+      ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(118): warning: use of old-style cast [-Wold-style-cast]
+  if (GPIOA->ODR & 1) GPIOA->BRR = 1;
+                      ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1323): note: expanded from macro 'GPIOA_BASE'
+#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(118): warning: use of old-style cast [-Wold-style-cast]
+  if (GPIOA->ODR & 1) GPIOA->BRR = 1;
+                      ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(119): warning: use of old-style cast [-Wold-style-cast]
+  else GPIOA->BSRR = 1;
+       ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1323): note: expanded from macro 'GPIOA_BASE'
+#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(119): warning: use of old-style cast [-Wold-style-cast]
+  else GPIOA->BSRR = 1;
+       ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(123): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCR1 = i;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(123): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCR1 = i;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(123): warning: implicit conversion loses integer precision: 'unsigned int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  TIM1->CCR1 = i;
+             ~ ^
+os.cpp(127): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCR2 = i;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(127): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCR2 = i;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(127): warning: implicit conversion loses integer precision: 'unsigned int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  TIM1->CCR2 = i;
+             ~ ^
+os.cpp(131): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER &= ~(TIM_CCER_CC1NE | TIM_CCER_CC1E);
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(131): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER &= ~(TIM_CCER_CC1NE | TIM_CCER_CC1E);
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(131): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER &= ~(TIM_CCER_CC1NE | TIM_CCER_CC1E);
+                  ^~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4411): note: expanded from macro 'TIM_CCER_CC1NE'
+#define  TIM_CCER_CC1NE                      ((uint16_t)0x0004)            /*!< Capture/Compare 1 Complementary output enable */
+                                              ^         ~~~~~~
+os.cpp(131): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER &= ~(TIM_CCER_CC1NE | TIM_CCER_CC1E);
+                                   ^~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4409): note: expanded from macro 'TIM_CCER_CC1E'
+#define  TIM_CCER_CC1E                       ((uint16_t)0x0001)            /*!< Capture/Compare 1 output enable */
+                                              ^         ~~~~~~
+os.cpp(132): warning: use of old-style cast [-Wold-style-cast]
+  if (b) TIM1->CCER |= TIM_CCER_CC1E;
+         ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(132): warning: use of old-style cast [-Wold-style-cast]
+  if (b) TIM1->CCER |= TIM_CCER_CC1E;
+         ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(132): warning: use of old-style cast [-Wold-style-cast]
+  if (b) TIM1->CCER |= TIM_CCER_CC1E;
+                       ^~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4409): note: expanded from macro 'TIM_CCER_CC1E'
+#define  TIM_CCER_CC1E                       ((uint16_t)0x0001)            /*!< Capture/Compare 1 output enable */
+                                              ^         ~~~~~~
+os.cpp(133): warning: use of old-style cast [-Wold-style-cast]
+  else TIM1->CCER |= TIM_CCER_CC1NE;
+       ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(133): warning: use of old-style cast [-Wold-style-cast]
+  else TIM1->CCER |= TIM_CCER_CC1NE;
+       ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(133): warning: use of old-style cast [-Wold-style-cast]
+  else TIM1->CCER |= TIM_CCER_CC1NE;
+                     ^~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4411): note: expanded from macro 'TIM_CCER_CC1NE'
+#define  TIM_CCER_CC1NE                      ((uint16_t)0x0004)            /*!< Capture/Compare 1 Complementary output enable */
+                                              ^         ~~~~~~
+os.cpp(137): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER &= ~(TIM_CCER_CC2NE | TIM_CCER_CC2E);
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(137): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER &= ~(TIM_CCER_CC2NE | TIM_CCER_CC2E);
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(137): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER &= ~(TIM_CCER_CC2NE | TIM_CCER_CC2E);
+                  ^~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4415): note: expanded from macro 'TIM_CCER_CC2NE'
+#define  TIM_CCER_CC2NE                      ((uint16_t)0x0040)            /*!< Capture/Compare 2 Complementary output enable */
+                                              ^         ~~~~~~
+os.cpp(137): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->CCER &= ~(TIM_CCER_CC2NE | TIM_CCER_CC2E);
+                                   ^~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4413): note: expanded from macro 'TIM_CCER_CC2E'
+#define  TIM_CCER_CC2E                       ((uint16_t)0x0010)            /*!< Capture/Compare 2 output enable */
+                                              ^         ~~~~~~
+os.cpp(138): warning: use of old-style cast [-Wold-style-cast]
+  if (b) TIM1->CCER |= TIM_CCER_CC2NE;
+         ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(138): warning: use of old-style cast [-Wold-style-cast]
+  if (b) TIM1->CCER |= TIM_CCER_CC2NE;
+         ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(138): warning: use of old-style cast [-Wold-style-cast]
+  if (b) TIM1->CCER |= TIM_CCER_CC2NE;
+                       ^~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4415): note: expanded from macro 'TIM_CCER_CC2NE'
+#define  TIM_CCER_CC2NE                      ((uint16_t)0x0040)            /*!< Capture/Compare 2 Complementary output enable */
+                                              ^         ~~~~~~
+os.cpp(139): warning: use of old-style cast [-Wold-style-cast]
+  else TIM1->CCER |= TIM_CCER_CC2E;
+       ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(139): warning: use of old-style cast [-Wold-style-cast]
+  else TIM1->CCER |= TIM_CCER_CC2E;
+       ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(139): warning: use of old-style cast [-Wold-style-cast]
+  else TIM1->CCER |= TIM_CCER_CC2E;
+                     ^~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4413): note: expanded from macro 'TIM_CCER_CC2E'
+#define  TIM_CCER_CC2E                       ((uint16_t)0x0010)            /*!< Capture/Compare 2 output enable */
+                                              ^         ~~~~~~
+os.cpp(143): warning: use of old-style cast [-Wold-style-cast]
+  left_cnt = TIM2->CNT; right_cnt = TIM4->CNT;
+             ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1294): note: expanded from macro 'TIM2_BASE'
+#define TIM2_BASE             (APB1PERIPH_BASE + 0x0000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(143): warning: use of old-style cast [-Wold-style-cast]
+  left_cnt = TIM2->CNT; right_cnt = TIM4->CNT;
+             ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1388): note: expanded from macro 'TIM2'
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(143): warning: use of old-style cast [-Wold-style-cast]
+  left_cnt = TIM2->CNT; right_cnt = TIM4->CNT;
+                                    ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1390): note: expanded from macro 'TIM4'
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1296): note: expanded from macro 'TIM4_BASE'
+#define TIM4_BASE             (APB1PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1290): note: expanded from macro 'APB1PERIPH_BASE'
+#define APB1PERIPH_BASE       PERIPH_BASE
+                              ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(143): warning: use of old-style cast [-Wold-style-cast]
+  left_cnt = TIM2->CNT; right_cnt = TIM4->CNT;
+                                    ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1390): note: expanded from macro 'TIM4'
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(145): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->DR = leds;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(145): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->DR = leds;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(146): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR2 |= SPI_CR2_TXEIE;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(146): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR2 |= SPI_CR2_TXEIE;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(146): warning: use of old-style cast [-Wold-style-cast]
+  SPI1->CR2 |= SPI_CR2_TXEIE;
+               ^~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7538): note: expanded from macro 'SPI_CR2_TXEIE'
+#define  SPI_CR2_TXEIE                       ((uint8_t)0x80)               /*!< Tx buffer Empty Interrupt Enable */
+                                              ^        ~~~~
+os.cpp(147): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->SR &= ~TIM_SR_UIF;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1332): note: expanded from macro 'TIM1_BASE'
+#define TIM1_BASE             (APB2PERIPH_BASE + 0x2C00)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(147): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->SR &= ~TIM_SR_UIF;
+  ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1425): note: expanded from macro 'TIM1'
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(147): warning: use of old-style cast [-Wold-style-cast]
+  TIM1->SR &= ~TIM_SR_UIF;
+               ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(4283): note: expanded from macro 'TIM_SR_UIF'
+#define  TIM_SR_UIF                          ((uint16_t)0x0001)            /*!< Update interrupt Flag */
+                                              ^         ~~~~~~
+os.cpp(142): warning: no previous prototype for function 'TIM1_UP_IRQHandler' [-Wmissing-prototypes]
+extern "C" void TIM1_UP_IRQHandler(void) {
+                ^
+os.cpp(142): note: declare 'static' if the function is not intended to be used outside of this translation unit
+extern "C" void TIM1_UP_IRQHandler(void) {
+           ^
+           static 
+os.cpp(153): warning: use of old-style cast [-Wold-style-cast]
+  if (SPI1->CR2 & SPI_CR2_TXEIE)
+      ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(153): warning: use of old-style cast [-Wold-style-cast]
+  if (SPI1->CR2 & SPI_CR2_TXEIE)
+      ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(153): warning: use of old-style cast [-Wold-style-cast]
+  if (SPI1->CR2 & SPI_CR2_TXEIE)
+                  ^~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7538): note: expanded from macro 'SPI_CR2_TXEIE'
+#define  SPI_CR2_TXEIE                       ((uint8_t)0x80)               /*!< Tx buffer Empty Interrupt Enable */
+                                              ^        ~~~~
+os.cpp(154): warning: use of old-style cast [-Wold-style-cast]
+    if (SPI1->SR & SPI_SR_TXE) {
+        ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(154): warning: use of old-style cast [-Wold-style-cast]
+    if (SPI1->SR & SPI_SR_TXE) {
+        ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(154): warning: use of old-style cast [-Wold-style-cast]
+    if (SPI1->SR & SPI_SR_TXE) {
+                   ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7542): note: expanded from macro 'SPI_SR_TXE'
+#define  SPI_SR_TXE                          ((uint8_t)0x02)               /*!< Transmit buffer Empty */
+                                              ^        ~~~~
+os.cpp(155): warning: use of old-style cast [-Wold-style-cast]
+      if (--spi_cnt) SPI1->DR = 0xff;
+                     ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(155): warning: use of old-style cast [-Wold-style-cast]
+      if (--spi_cnt) SPI1->DR = 0xff;
+                     ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(156): warning: use of old-style cast [-Wold-style-cast]
+      else { SPI1->DR = 0; SPI1->CR2 &= ~SPI_CR2_TXEIE; }
+             ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(156): warning: use of old-style cast [-Wold-style-cast]
+      else { SPI1->DR = 0; SPI1->CR2 &= ~SPI_CR2_TXEIE; }
+             ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(156): warning: use of old-style cast [-Wold-style-cast]
+      else { SPI1->DR = 0; SPI1->CR2 &= ~SPI_CR2_TXEIE; }
+                           ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(156): warning: use of old-style cast [-Wold-style-cast]
+      else { SPI1->DR = 0; SPI1->CR2 &= ~SPI_CR2_TXEIE; }
+                           ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(156): warning: use of old-style cast [-Wold-style-cast]
+      else { SPI1->DR = 0; SPI1->CR2 &= ~SPI_CR2_TXEIE; }
+                                         ^~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7538): note: expanded from macro 'SPI_CR2_TXEIE'
+#define  SPI_CR2_TXEIE                       ((uint8_t)0x80)               /*!< Tx buffer Empty Interrupt Enable */
+                                              ^        ~~~~
+os.cpp(158): warning: use of old-style cast [-Wold-style-cast]
+  if (SPI1->SR & SPI_SR_RXNE) {
+      ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(158): warning: use of old-style cast [-Wold-style-cast]
+  if (SPI1->SR & SPI_SR_RXNE) {
+      ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(158): warning: use of old-style cast [-Wold-style-cast]
+  if (SPI1->SR & SPI_SR_RXNE) {
+                 ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7541): note: expanded from macro 'SPI_SR_RXNE'
+#define  SPI_SR_RXNE                         ((uint8_t)0x01)               /*!< Receive buffer Not Empty */
+                                              ^        ~~~~
+os.cpp(159): warning: use of old-style cast [-Wold-style-cast]
+    c = SPI1->DR;
+        ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(159): warning: use of old-style cast [-Wold-style-cast]
+    c = SPI1->DR;
+        ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(159): warning: implicit conversion loses integer precision: 'volatile uint16_t' (aka 'volatile unsigned short') to 'char' [-Wimplicit-int-conversion]
+    c = SPI1->DR;
+      ~ ~~~~~~^~
+os.cpp(160): warning: use of old-style cast [-Wold-style-cast]
+    if (spi_cnt == 3) GPIOA->BRR = GPIOA->BSRR = 0x10;
+                      ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1323): note: expanded from macro 'GPIOA_BASE'
+#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(160): warning: use of old-style cast [-Wold-style-cast]
+    if (spi_cnt == 3) GPIOA->BRR = GPIOA->BSRR = 0x10;
+                      ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(160): warning: use of old-style cast [-Wold-style-cast]
+    if (spi_cnt == 3) GPIOA->BRR = GPIOA->BSRR = 0x10;
+                                   ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                                              ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1323): note: expanded from macro 'GPIOA_BASE'
+#define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(160): warning: use of old-style cast [-Wold-style-cast]
+    if (spi_cnt == 3) GPIOA->BRR = GPIOA->BSRR = 0x10;
+                                   ^~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1416): note: expanded from macro 'GPIOA'
+#define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+                             ^                ~~~~~~~~~~
+os.cpp(161): warning: use of old-style cast [-Wold-style-cast]
+    if (SPI1->SR & SPI_SR_TXE) {
+        ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                                             ^~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1333): note: expanded from macro 'SPI1_BASE'
+#define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+                               ^~~~~~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1291): note: expanded from macro 'APB2PERIPH_BASE'
+#define APB2PERIPH_BASE       (PERIPH_BASE + 0x10000)
+                               ^~~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1282): note: expanded from macro 'PERIPH_BASE'
+#define PERIPH_BASE           ((uint32_t)0x40000000) /*!< Peripheral base address in the alias region */
+                               ^         ~~~~~~~~~~
+os.cpp(161): warning: use of old-style cast [-Wold-style-cast]
+    if (SPI1->SR & SPI_SR_TXE) {
+        ^~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(1426): note: expanded from macro 'SPI1'
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+                             ^               ~~~~~~~~~
+os.cpp(161): warning: use of old-style cast [-Wold-style-cast]
+    if (SPI1->SR & SPI_SR_TXE) {
+                   ^~~~~~~~~~
+C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include\stm32f10x.h(7542): note: expanded from macro 'SPI_SR_TXE'
+#define  SPI_SR_TXE                          ((uint8_t)0x02)               /*!< Transmit buffer Empty */
+                                              ^        ~~~~
+os.cpp(151): warning: no previous prototype for function 'SPI1_IRQHandler' [-Wmissing-prototypes]
+extern "C" void SPI1_IRQHandler(void) {
+                ^
+os.cpp(151): note: declare 'static' if the function is not intended to be used outside of this translation unit
+extern "C" void SPI1_IRQHandler(void) {
+           ^
+           static 
+os.cpp(168): warning: no previous prototype for function 'left_wheel_forward' [-Wmissing-prototypes]
+void left_wheel_forward(void) // ok
+     ^
+os.cpp(168): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void left_wheel_forward(void) // ok
+^
+static 
+os.cpp(177): warning: no previous prototype for function 'Right_wheel_forward' [-Wmissing-prototypes]
+void Right_wheel_forward(void) // ok
+     ^
+os.cpp(177): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Right_wheel_forward(void) // ok
+^
+static 
+os.cpp(186): warning: no previous prototype for function 'left_wheel_backward' [-Wmissing-prototypes]
+void left_wheel_backward(void) // ok
+     ^
+os.cpp(186): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void left_wheel_backward(void) // ok
+^
+static 
+os.cpp(194): warning: no previous prototype for function 'Right_wheel_backward' [-Wmissing-prototypes]
+void Right_wheel_backward(void) // ok
+     ^
+os.cpp(194): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Right_wheel_backward(void) // ok
+^
+static 
+os.cpp(202): warning: no previous prototype for function 'wheel_forward' [-Wmissing-prototypes]
+void wheel_forward(void)
+     ^
+os.cpp(202): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void wheel_forward(void)
+^
+static 
+os.cpp(210): warning: no previous prototype for function 'wheel_backward' [-Wmissing-prototypes]
+void wheel_backward(void)
+     ^
+os.cpp(210): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void wheel_backward(void)
+^
+static 
+os.cpp(218): warning: no previous prototype for function 'wheel_left' [-Wmissing-prototypes]
+void wheel_left (void)
+     ^
+os.cpp(218): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void wheel_left (void)
+^
+static 
+os.cpp(226): warning: no previous prototype for function 'wheel_right' [-Wmissing-prototypes]
+void wheel_right (void)
+     ^
+os.cpp(226): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void wheel_right (void)
+^
+static 
+os.cpp(234): warning: no previous prototype for function 'wheel_forward_fast' [-Wmissing-prototypes]
+void wheel_forward_fast(void)
+     ^
+os.cpp(234): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void wheel_forward_fast(void)
+^
+static 
+os.cpp(242): warning: no previous prototype for function 'wheel_backward_fast' [-Wmissing-prototypes]
+void wheel_backward_fast(void)
+     ^
+os.cpp(242): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void wheel_backward_fast(void)
+^
+static 
+os.cpp(288): warning: no previous extern declaration for non-static variable 'speedFactor' [-Wmissing-variable-declarations]
+int speedFactor = 200;
+    ^
+os.cpp(288): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int speedFactor = 200;
+^
+os.cpp(293): warning: unused variable 'temp_pwm' [-Wunused-variable]
+        unsigned int temp_pwm = (i - 8);
+                     ^
+os.cpp(355): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+os.cpp(326): warning: unused variable 'temp_pwm' [-Wunused-variable]
+        unsigned int temp_pwm = (i - 8);
+                     ^
+os.cpp(17): warning: unused function 'poll' [-Wunused-function]
+void poll(unsigned t)
+     ^
+226 warnings generated.
+compiling os.cpp...
+linking...
+Program Size: Code=10292 RO-data=876 RW-data=4 ZI-data=1800  
+FromELF: creating hex file...
+".\Objects\D1v2.axf" - 0 Error(s), 226 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil.STM32F1xx_DFP.2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: ADC Version: 3.6.0
+   * Component: DMA Version: 3.6.0
+   * Component: Framework Version: 3.6.0
+   * Component: GPIO Version: 3.6.0
+   * Component: RCC Version: 3.6.0
+   * Component: SPI Version: 3.6.0
+   * Component: TIM Version: 3.6.0
+   * Component: USART Version: 3.6.0
+   * Component: WWDG Version: 3.6.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Target_1
+  C:/Users/gauta/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+  C:/Users/gauta/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.0/Device/StdPeriph_Driver/inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/system_stm32f10x.c
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+
+   * Component: Keil::Device:StdPeriph Drivers:ADC:3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_adc.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_adc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:DMA:3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_dma.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_dma.c
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/misc.h
+      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_it.c
+      Source file:   Device/StdPeriph_Driver/src/misc.c
+      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_conf.h
+      Include file:  Device/StdPeriph_Driver/templates/stm32f10x_it.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.6.0
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_gpio.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_gpio.h
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.6.0
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_rcc.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_rcc.h
+
+   * Component: Keil::Device:StdPeriph Drivers:SPI:3.6.0
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_spi.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_spi.h
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:3.6.0
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_tim.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_tim.h
+
+   * Component: Keil::Device:StdPeriph Drivers:USART:3.6.0
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_usart.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_usart.h
+
+   * Component: Keil::Device:StdPeriph Drivers:WWDG:3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_wwdg.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_wwdg.c
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
